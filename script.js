@@ -1,52 +1,4 @@
-/* let model = document.querySelectorAll('.tathva');
 
-let btn = document.querySelectorAll('.btn');
-
-btn.forEach(function(value, index){
-    value.addEventListener('click', function(){
-        console.log(index);
-        model.forEach((val) =>{
-            val.className='';
-            
-            if(index==0){
-                val.classList.add('n1');
-                window.document.body.style.background="#fff";
-            }else if(index==1){
-                val.classList.add('n2');
-                window.document.body.style.background="#fff";
-            }
-            else if(index==2){
-                val.classList.add('n3');
-                window.document.body.style.background="#fff";
-            }
-            else if(index==3){
-                val.classList.add('n4');
-                window.document.body.style.background="#fff";
-            }
-            else if(index==4){
-                val.classList.add('n5');
-                window.document.body.style.background="#333";
-            }
-            else if(index==5){
-                val.classList.add('n6');
-                window.document.body.style.background="#fff";
-            }
-            else if(index==6){
-                val.classList.add('n7');
-                window.document.body.style.background="#333";
-            }
-            else if(index==7){
-                val.classList.add('n8');
-                window.document.body.style.background="#fff";
-            }
-            else if(index==8){
-                val.classList.add('n9');
-                window.document.body.style.background="#fff";
-            }
-        })
-    })
-}) 
-*/
 
 
 let inputFile = document.getElementById("input-file");
@@ -70,11 +22,6 @@ mode.addEventListener("click", ()=>{
     modeCount+=1
 })
 
-/* let left = document.getElementById("left");
-let right = document.getElementById("right");
-let top = document.getElementById("top");
-let bottom = document.getElementById("bottom"); */
-/* let a = T1.style.backgroundPositionX; */
 let x=122;
 let y=40;
 
