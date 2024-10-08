@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TATHVA lettering</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <button id="mode"><i class="fa-solid fa-circle-half-stroke"></i></button>
+    </section>
+    <main>
+       
+        <h1 class="tathva" id="T1">T</h1>
+        <h1 class="tathva" id="A1">A</h1>
+        <h1 class="tathva" id="T2">T</h1>
+        <h1 class="tathva" id="H">H</h1>
+        <h1 class="tathva" id="V">V</h1>
+        <h1 class="tathva" id="A2">A</h1>
+        
+    </main>
+    <scetion class="controls">
+        <div class="joystick">
+            <div class="hori plus">
+                <button onclick="left()"><i class="fa-solid fa-caret-left"></i></button>
+                <button onclick="right()"><i class="fa-solid fa-caret-right"></i></button>
+            </div>
+            <div class="vert plus">
+                <button onclick="up()"><i class="fa-solid fa-caret-up"></i></button>
+                <button onclick="down()"><i class="fa-solid fa-caret-down"></i></button>
+            </div>
+        </div>
+        <label for="input-file">Upload Image</label>
+        <input type="file" accept="image/jpeg, image/png, image/jpg" id="input-file">
+    </scetion>
+    
+</body>
+</html>

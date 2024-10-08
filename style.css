@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    background-color: rebeccapurple;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: end;
+
+}
+#mode{
+    padding: 5px 5px;
+    border-radius: 35%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    
+}
+#mode:hover{
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    font-family: "roboto";
+    font-size: 7rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+    
+    
+}
+
+.controls{
+    margin-top: 10vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.joystick{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.hori{
+    width: 120px;
+    height: 36px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.vert{
+    width: 36px;
+    height: 120px;
+    background-color: dodgerblue;
+    position: absolute;
+    top: -42px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hori button{
+    width: 42px;
+    
+}
+.hori button:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;    
+}
+.hori button:first-child:active{
+    box-shadow: -1px 0 1px #000;
+}
+.hori button:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    
+}
+.hori button:last-child:active{
+    box-shadow: 1px 0 1px #000;
+}
+.vert button:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    
+}
+.vert button:first-child:active{
+    box-shadow: 0 -1px 1px #000;
+}
+.vert button:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    
+}
+.vert button:last-child:active{
+    box-shadow: 0 1px 1px #000;
+}
+.vert button{
+    height: 42px;
+}
+
+.plus button{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.plus button:hover{
+    cursor: pointer;
+}
+i{
+    background: none;
+}
+
+input{
+    display: none;
+}
+label{
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    font-family: "roboto";
+    background-color: dodgerblue;
+    color: whitesmoke;
+    border-radius: 15px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+label:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+
+
+
+.tathva{
+    background-image: url(images/pic7.jpg);
+    background-position-x: 122px;
+    background-position-y: 40px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+@media screen and (max-width :900px) {
+    main{
+    width: 100%;
+    height: auto;
+    font-family: "roboto";
+    font-size: 3rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    
+    
+}
+}
